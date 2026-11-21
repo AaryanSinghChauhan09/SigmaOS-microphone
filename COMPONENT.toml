@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-microphone"
+tier = 2
+stability = "scaffold"
+language = "rust"
+description = "Microphone management (ALSA/PulseAudio input devices, capture)"
+upstream = []
+
+[contract]
+provides = ["sigmamicrophone"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles and passes AAA unit tests"
+next_milestone = "Hardware and runtime integration"
